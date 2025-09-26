@@ -11,8 +11,8 @@ def test_sum(sample_list):
 def test_len(sample_list): 
     assert len(sample_list)==4
 
-@pytest.mark.skip(reason="Bug 2 ")
-def test_len1(sample_list): 
-    assert len(sample_list)==10
+# @pytest.mark.skip(reason="Bug 2 ")
+# def test_len1(sample_list): 
+   #  assert len(sample_list)==10
 
 
